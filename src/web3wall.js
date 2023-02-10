@@ -9,8 +9,8 @@ const TARGET_CHAIN_ID = 137 // polygon
 const TARGET_CHAIN_ID_HEX = "0x" + TARGET_CHAIN_ID.toString(16);
 
 // Setup smart contract interaction
-const TOKEN_LOCATION = "https://raw.githubusercontent.com/twireDao/content/main/safebank/SpakaAbi.json"
-const TOKEN_ADDRESS = "0xE36173EC41a19395dd1977086ADffa1F4f6DeECd"
+const TOKEN_LOCATION = "https://raw.githubusercontent.com/twireDao/twire-membership-area-public/main/src/twireMembershipNft.json"
+const TOKEN_ADDRESS = "0x5c68479b17643f9ef02892d90f4c8c30d56af9aa"
 
 // Unpkg imports
 const Web3Modal = window.Web3Modal.default;
