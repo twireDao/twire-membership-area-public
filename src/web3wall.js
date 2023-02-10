@@ -269,7 +269,7 @@ async function checkMembership() {
     const accounts = await web3.eth.getAccounts();
     selectedAccount = accounts[0];
 
-    const balance = await TokenContract.balanceOf(selectedAccount, 1)
+    const balance = await TokenContract.balanceOf(selectedAccount)
 
     console.log("Token balance:", balance)
 
